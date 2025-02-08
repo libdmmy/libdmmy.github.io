@@ -2,4 +2,28 @@ body {
   background-color: #212121;
   color: #FFF;
   font-family: monospace;
+  margin: 0px;
+}
+
+.sidebar {
+  height: 100%;
+  width: 88px;
+  background-color: #303030;
+  position: fixed;
+}
+
+.sidebar-link {
+  margin-left: 4px;
+  color: #AAA;
+  display: block;
+  text-decoration: none;
+}
+
+.sidebar-link:hover {
+  color: #FFF;
+}
+
+.content {
+  margin-left: 88px;
+  padding: 4px;
 }
