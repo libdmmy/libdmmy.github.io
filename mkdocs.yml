@@ -1,4 +1,4 @@
 site_name: libdmmy
-site_url: https://libdmmy.github.io/docs
+site_url: https://libdmmy.github.io
 theme:
   name: material
