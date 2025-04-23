@@ -1,4 +1,4 @@
-site_name: DTRLB
-site_url: https://libdmmy.codeberg.page/dtrlb-docs
+site_name: libdmmy
+site_url: https://libdmmy.github.io/docs
 theme:
   name: material
