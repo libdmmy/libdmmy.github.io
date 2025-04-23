@@ -1,0 +1,4 @@
+site_name: DTRLB
+site_url: https://libdmmy.codeberg.page/dtrlb-docs
+theme:
+  name: material
