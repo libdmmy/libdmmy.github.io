@@ -16,6 +16,12 @@ theme:
 markdown_extensions:
   - admonition
 
+plugins:
+  - search
+  - mkdocs-simple-hooks:
+      hooks:
+        on_post_build: "hooks:copy_wellknown"
+
 extra:
   social:
     - icon: fontawesome/brands/telegram
