@@ -1,0 +1,3 @@
+# About me
+
+libdmmy (Dummy Yenko). Not a big fan of touching grass, but a big fan of coding and Minecraft...
