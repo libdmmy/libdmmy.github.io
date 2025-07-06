@@ -8,4 +8,5 @@ dependencies = [
     "mkdocs>=1.6.1",
     "mkdocs-material>=9.6.15",
     "mkdocs-simple-hooks>=0.1.5",
+    "pygments>=2.19.2",
 ]
