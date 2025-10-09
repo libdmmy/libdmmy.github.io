@@ -1,0 +1,13 @@
+body {
+    font-family: monospace;
+    font-size: 24pt;
+    background-color: #212121;
+    color: #AAA;
+
+    margin: 0px;
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
