@@ -12,24 +12,46 @@
         body {
             background-color: #212121;
             color: #ccc;
-            font-family: monospace;
+            font-family: 'JetBrains Mono', monospace;
+            src: url('jb.ttf');
+            font-size: 16px;
         }
 
-        h2 { margin-top: 0; }
+        h2 { 
+            margin-top: 0;
+            margin-bottom: 0;
+            font-size: 32px;
+        }
+
+        ul {
+            margin-top: 0;
+            margin-bottom: 0;
+        }
 
         a:link { color: #42c77e; }
         a:visited { color: #42c77e; }
+
+        .root-box {
+            background-color: #00000050;
+            padding: 8px;
+            max-width: 85ch;
+
+            margin: 0 auto;
+        }
     </style>
 </head>
 
 <body>
-    <h2>idk how to make a nice design</h2>
-    <div>...so for now there'll be just some links:</div>
+    <div class="root-box">
+        <h2>libdmmy</h2>
+        <div>here are some links:</div>
 
-    <ul>
-        <li><a rel="me" href="https://mastodon.social/@libdmmy">my mastodon</a></li>
-        <li><a rel="me" href="https://t.me/libdmmy">my telegram</a></li>
-    </ul>
+        <ul>
+            <li><a rel="me" href="https://mastodon.social/@libdmmy">my mastodon</a></li>
+            <li><a rel="me" href="https://t.me/libdmmy">my telegram</a></li>
+            <li><a rel="me" href="https://codeberg.org/libdmmy">codeberg</a></li>
+        </ul>
+    </div>
 </body>
 
 </html>
